@@ -1,25 +1,32 @@
 # Matt Edmondson
 
-Producer, Game Developer, Software Engineer. Melbourne, Australia.
+I'm a producer, game developer, and software engineer in Melbourne, Australia. Over the past two decades I've moved between hands-on engineering, production leadership, game design, sound design, and open source library development, often several of those at once. The thread connecting all of it is a deep satisfaction in building things and a conviction that technical excellence and creative ambition are the same force, applied differently.
 
-I've been building games and software for about 30 years now. Starting with Amiga BASIC, to custom game engines in C++ and OpenGL, co-founding an indie studio, shipping a game on Steam. I spent a decade at EA on the Real Racing series, and now I'm Studio Production Lead at a place called The Three Thousands where we're making a racing game in Unreal Engine.
+## Background
 
-The career arc has been a gradual shift from writing code all day to leading teams that write code all day. I still review PRs, maintain build infrastructure, and catch math errors in the vehicle model, but the job is production now. Coaching people, running sprints, making scope decisions, keeping the machine moving. The engineering background means I can have real conversations with the engineers and other disciplines and make informed tradeoffs, which is honestly the thing that makes the production role work.
+I started out as an analyst programmer at a mobile telecommunications company, then co-founded Manic Game Studios and spent three years as an independent developer building custom engines in C++ and OpenGL. That period ended with **Critical Mass**, a 3D color-match puzzle game shipped on Steam that still holds a Very Positive rating.
 
-## ktsu.dev
+After that I spent a decade at **EA Firemonkeys** on the **Real Racing** franchise. The first three years were as a software engineer on Real Racing 3 (replay and camera systems, anti-cheat infrastructure, telemetry pipelines, UI and typographic rendering, and a Gear VR prototype). In 2016 I moved into production, eventually becoming project lead for Real Racing 3's live service, a title with over 500 million installs running on a six week update cadence with cross-functional teams of 30 to 40 developers. I also led technical production on Real Racing Next, taking it from concept to Early Access within twelve months.
 
-Outside of studio work most of my energy goes into [ktsu.dev](https://github.com/ktsu-dev), a collection of open source .NET libraries and tools. The central idea is making invalid states unrepresentable. Things like strongly typed file paths so you can't accidentally pass a directory where a filename should go, type safe physical quantities with dimensional analysis, and a bunch of utilities that eliminate the kind of bugs that waste everyone's time.
+These days I'm **Studio Production Lead** at **The Three Thousands**, a Melbourne indie studio focused on accessible racing games with distinctive art direction. I work across engineering, production, and DevOps (Unreal Engine, Azure, Kubernetes, Terraform), helping build the studio's technical infrastructure and engineering culture.
 
-There's 60+ packages on NuGet now covering everything from fuzzy search to ImGui application scaffolding to undo/redo systems. It's a living project that feeds back into my studio work and vice versa.
+## Open Source
 
-## Other Things I Make
+Most of my open source work lives at **[ktsu.dev](https://github.com/ktsu-dev)**, a collection of .NET libraries and tools I started in May 2023, now spanning more than 60 public repositories published through NuGet. The project grew out of a conviction that .NET development can be more expressive and reliable than it typically is. The flagship is **[Semantics](https://github.com/ktsu-dev/Semantics)**, which covers semantic strings with validation, strongly typed file paths, and over 80 physical quantities with compile-time dimensional analysis. A second cluster of provider-pattern libraries (PersistenceProvider, SerializationProvider, FileSystemProvider, ThemeProvider) replaces statically coupled infrastructure with composable, testable backends.
 
-I have built analog synth modules, guitar pedals, cnc machines. I'm an amateur race car mechanic, CAD designer, 3D print enthusiast, miniature painter, music producer, and photographer. I've built four game engines from scratch across my career and I still do game jams when I can.
+## Craft
 
-The common thread is I just like making things. Software, hardware, music, and physical objects like cars and tools. The medium changes but the satisfaction is the same.
+Code should communicate intent. I favor strong semantic typing, clear naming, and designs that make invalid states unrepresentable, because a bug caught at compile time is cheaper than the same bug found in production. I take documentation seriously (design docs, code comments, team handbooks), documents are infrastructure, not overhead.
 
-## Links
+The same applies to teams. The best work I've seen comes from environments where people feel safe to take risks, ask questions, and disagree openly. I'm a vocal advocate for neurodiversity in the workplace, my opinion is that teams function best when they're designed to accommodate different ways of thinking and communicating.
 
-- [ktsu.dev on GitHub](https://github.com/ktsu-dev)
-- [LinkedIn](https://www.linkedin.com/in/medmondson-aus)
-- [matthewedmondson.com](https://matthewedmondson.com)
+## Beyond Software
+
+I build things away from the keyboard too: 3D printing and CAD design, microcontroller projects, and DIY synthesizer modules and guitar pedals. I produce music and design sound (all the sound effects in Critical Mass were mine). I've also participated in eight game jams since 2012, there's something uniquely energizing about building a complete game in 48 hours.
+
+## Contact
+
+- **Website:** [matthewedmondson.com](https://matthewedmondson.com)
+- **Email:** [matthew.edmondson@gmail.com](mailto:matthew.edmondson@gmail.com)
+- **LinkedIn:** [linkedin.com/in/medmondson-aus](https://www.linkedin.com/in/medmondson-aus/)
+- **ktsu.dev:** [github.com/ktsu-dev](https://github.com/ktsu-dev)
